@@ -6,7 +6,7 @@ function App() {
   const apiUrl = import.meta.env.VITE_API_URL;
 
   useEffect(() => {
-    fetch(`${apiUrl}/hello`)
+    fetch(`${apiUrl}/api/hello`)
       .then((response) => response.json())
       .then((data) => {
         setApiResponse(data.message);
@@ -70,7 +70,7 @@ function App() {
             </p>
             <p className="mb-4">
               Example URL: <code
-                className="bg-[#1C232B] px-1 rounded">https://react-express-monolith.vercel.app/api/hello</code>
+                className="bg-[#1C232B] px-1 rounded">https://react-express-monolith-vercel-template.vercel.app/api/hello</code>
             </p>
             <p className="mb-4">You can set the server or api from <code
               className="bg-[#1C232B] px-1 rounded">vercel.json</code>, Example :</p>
@@ -114,7 +114,7 @@ function App() {
                 <li>Setup PORT local and production</li>
                 <p>Set for local & prod PORT in <code className="bg-[#1C232B] px-1 rounded">.env</code> and <code className="bg-[#1C232B] px-1 rounded">.env.production</code>,
                   dont forget set <code className="bg-[#1C232B] px-1 rounded">env*</code> in <code className="bg-[#1C232B] px-1 rounded">.gitignore</code> after set the PORT</p>
-                <li>Build front-end (REQUIRED):</li>
+                <li>Build front-end (REQUIRED, AND YOU MUST RUN THIS COMMAND AFTER CHANGES THE CODE):</li>
                 <code className="bg-[#1C232B] px-1 rounded">npm run build</code>
                 <li>Run the following command to add all your changes:</li>
                 <code className="bg-[#1C232B] px-1 rounded">git add .</code>
@@ -129,7 +129,7 @@ function App() {
                 <code className="bg-[#1C232B] px-1 rounded">git push -u origin main</code>
                 <li>In Vercel, click "Import Project" and connect your repository from GitHub.</li>
                 <li>Click "Deploy" to start the process.</li>
-                <li>In Vercel, go to Settings &gt; Environment Variables and set the .env contents from KEY and VALUE fields and then redeploy.</li>
+                <li>In Vercel, go to Settings &gt; Environment Variables and set the .env contents from KEY and VALUE fields and then redeploy <code className="bg-[#1C232B] px-1 rounded">(npm run build &gt; git add . &gt; git commit -m "your message" &gt; "git push")</code>.</li>
               </ol>
             </ol>
           </section>
