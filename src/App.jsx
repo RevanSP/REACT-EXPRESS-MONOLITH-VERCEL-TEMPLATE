@@ -46,7 +46,7 @@ function App() {
             </p>
             <p className="mb-4">
               Example URL: <code
-                className="bg-[#1C232B] px-1 rounded">https://react-express-monolith.vercel.app/api/hello</code>
+                className="bg-[#1C232B] px-1 rounded">https://react-express-monolith-vercel-template.vercel.app/api/hello</code>
             </p>
             <p className="mb-4">Expected JSON response:</p>
             <pre className="p-4 rounded-md text-sm overflow-x-auto">
