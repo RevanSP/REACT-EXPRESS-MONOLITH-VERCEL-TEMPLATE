@@ -61,17 +61,6 @@ function App() {
           </section>
           <section className="shadow-md rounded-lg p-6 bg-[#15181D]">
             <h2 className="text-2xl font-semibold mb-4 text-secondary">VERCEL CONFIGURATION</h2>
-            <p className="mb-4">
-              you can setup in folder <code className="bg-[#1C232B] px-1 rounded"> server/index.js</code> or create REST API (EXPRESS.JS)
-            </p>
-            <p className="mb-4">
-              To test your newly created REST API, visit the <code
-                className="bg-[#1C232B] px-1 rounded">/api/hello</code> route on Vercel.
-            </p>
-            <p className="mb-4">
-              Example URL: <code
-                className="bg-[#1C232B] px-1 rounded">https://react-express-monolith-vercel-template.vercel.app/api/hello</code>
-            </p>
             <p className="mb-4">You can set the server or api from <code
               className="bg-[#1C232B] px-1 rounded">vercel.json</code>, Example :</p>
             <pre className="p-4 rounded-md text-sm overflow-x-auto">
