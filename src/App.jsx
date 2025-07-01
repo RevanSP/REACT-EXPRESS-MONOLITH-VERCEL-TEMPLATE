@@ -103,8 +103,6 @@ function App() {
                 <li>Setup PORT local and production</li>
                 <p>Set for local & prod PORT in <code className="bg-[#1C232B] px-1 rounded">.env</code> and <code className="bg-[#1C232B] px-1 rounded">.env.production</code>,
                   dont forget set <code className="bg-[#1C232B] px-1 rounded">env*</code> in <code className="bg-[#1C232B] px-1 rounded">.gitignore</code> after set the PORT</p>
-                <li>Build front-end (REQUIRED, AND YOU MUST RUN THIS COMMAND AFTER CHANGES THE CODE):</li>
-                <code className="bg-[#1C232B] px-1 rounded">npm run build</code>
                 <li>Run the following command to add all your changes:</li>
                 <code className="bg-[#1C232B] px-1 rounded">git add .</code>
                 <li>Commit your changes with a message describing the changes:</li>
